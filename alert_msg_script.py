@@ -31,7 +31,7 @@ mobile_numbers = [submission.mobileNo for submission in all_submissions if submi
 
 # Twilio credentials
 account_sid = 'AC3db13842922109731bfe10a18efdeb89'
-auth_token = '1d5f8e98400dc36468b52d15e32a14c9'
+auth_token = #enter your own token
 client = Client(account_sid, auth_token)
 
 # Message body
